@@ -15,11 +15,8 @@ export default function () {
         symbol,
       })
 
-      tx.wait()
-        .then(() => console.log('✅ Metadata stored'))
-        .catch(() => console.log('🚨 Error while processing tx'))
+      await tx.wait()
     } catch (error) {
-      // TODO: propper error handling
       console.log(error)
     }
   })
