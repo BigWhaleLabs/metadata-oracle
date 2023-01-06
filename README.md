@@ -11,9 +11,11 @@ And you should be good to go! Feel free to fork and submit pull requests.
 
 ## Environment variables
 
-| Name      | Description                                        |
-| --------- | -------------------------------------------------- |
-| `PORT`    | Port to run server on (defaults to 1337)           |
-| `ETH_RPC` | Ethereum node RPC URI (defaults to @bwl/constants) |
+| Name                        | Description                                        |
+| --------------------------- | -------------------------------------------------- |
+| `PORT`                      | Port to run server on (defaults to 1337)           |
+| `ETH_RPC`                   | Ethereum node RPC URI (defaults to @bwl/constants) |
+| `METADATA_CONTRACT_ADDRESS` | MetadataLedger contract address                    |
+| `SIGNER_PRIVATE_KEY`        | Account prevate key                                |
 
 Also, please, consider looking at `.env.sample`.
