@@ -10,4 +10,6 @@ dotenv.config({ path: resolve(cwd(), '.env') })
 export default cleanEnv(process.env, {
   PORT: num({ default: 1337 }),
   ETH_RPC: str({ default: ETH_RPC }),
+  METADATA_CONTRACT_ADDRESS: str(),
+  SIGNER_PRIVATE_KEY: str(),
 })
