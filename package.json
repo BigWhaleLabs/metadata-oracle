@@ -17,7 +17,10 @@
   "dependencies": {
     "@big-whale-labs/bwl-metadata-bridge-contract": "^0.1.0",
     "@big-whale-labs/constants": "^0.1.39",
+    "@ethersproject/experimental": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
     "@koa/cors": "^4.0.0",
+    "@opengsn/provider": "^3.0.0-beta.1",
     "amala": "^8.0.2",
     "dotenv": "^16.0.3",
     "envalid": "^7.3.1",
