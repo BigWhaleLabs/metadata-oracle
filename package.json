@@ -56,5 +56,9 @@
   "_moduleAliases": {
     "@": "dist"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "resolutions": {
+    "@opengsn/provider/@opengsn/common": "3.0.0-beta.1",
+    "@opengsn/provider/@opengsn/contracts": "3.0.0-beta.1"
+  }
 }
