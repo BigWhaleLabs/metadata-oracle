@@ -1,8 +1,10 @@
+import { Signer } from 'ethers'
+import getMetadataContract from '@/helpers/getMetadataContract'
 import getTokenContract from '@/helpers/getTokenContract'
-import metadataContract from '@/helpers/metadataContract'
 
-export default function (provider?: any) {
-  metadataContract.connect(provider)
+export default function (signer: Signer) {
+  const metadataContract = getMetadataContract(signer)
+
   metadataContract.on('RequestMetadata', async (chainId, tokenAddress) => {
     try {
       const tokenContract = getTokenContract(tokenAddress)
