@@ -1,5 +1,7 @@
 import { Wallet } from 'ethers'
 import env from '@/helpers/env'
-import provider from '@/helpers/provider'
+import getProvider from '@/helpers/getProvider'
 
-export default new Wallet(env.SIGNER_PRIVATE_KEY).connect(provider)
+const goerliProvider = getProvider(5)
+
+export default new Wallet(env.SIGNER_PRIVATE_KEY).connect(goerliProvider)
