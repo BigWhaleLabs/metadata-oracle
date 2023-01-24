@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@big-whale-labs/bwl-metadata-bridge-contract": "^0.1.1",
-    "@big-whale-labs/constants": "^0.1.44",
+    "@big-whale-labs/constants": "^0.1.46",
     "dotenv": "^16.0.3",
     "envalid": "^7.3.1",
     "ethers": "^5.7.2"
