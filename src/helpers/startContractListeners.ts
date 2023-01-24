@@ -5,11 +5,10 @@ import metadataContract from '@/helpers/metadataContract'
 export default function () {
   metadataContract.on('RequestMetadata', async (chainId, tokenAddress) => {
     try {
-      console.log('chainId', chainId)
+      console.log('chainId', Number(chainId))
       console.log('tokenAddress', tokenAddress)
 
-      const provider = getProvider(chainId)
-      metadataContract.connect(provider)
+      const provider = getProvider(Number(chainId))
 
       const tokenContract = getTokenContract(tokenAddress, provider)
 
@@ -25,7 +24,7 @@ export default function () {
       })
 
       const reciept = await tx.wait()
-      console.log(reciept.status)
+      console.log('Transaction status: ', reciept.status)
     } catch (error) {
       console.log(error)
     }

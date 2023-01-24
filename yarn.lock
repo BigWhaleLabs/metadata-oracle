@@ -5,17 +5,17 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@big-whale-labs/bwl-metadata-bridge-contract@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@big-whale-labs/bwl-metadata-bridge-contract@npm:0.1.0"
-  checksum: 2b2fe2c457b9cf6bc9de1867ebe0c9071382cd52d1f55956bbeea281e4188be53255cd71769215f55c4a7efd9ca04693b573cd3395a3960329045d072c104975
+"@big-whale-labs/bwl-metadata-bridge-contract@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@big-whale-labs/bwl-metadata-bridge-contract@npm:0.1.1"
+  checksum: 80a8cb67ecc2eb4076eac80d002de678f3cf725c62bc6def1accb09a38963947c977bf6247bc2c142634edfef15b3194de5bf25e514f1319a63b2cde2d097cac
   languageName: node
   linkType: hard
 
-"@big-whale-labs/constants@npm:^0.1.39":
-  version: 0.1.39
-  resolution: "@big-whale-labs/constants@npm:0.1.39"
-  checksum: 69807bda7e9ffb4561d1adb9fb62d34257b3099c1d52131adc55e4b10a859135200bc22ce8a80bce28a584ebba76e4c4f6254988415fbbddb8ad8cb20573b742
+"@big-whale-labs/constants@npm:^0.1.46":
+  version: 0.1.46
+  resolution: "@big-whale-labs/constants@npm:0.1.46"
+  checksum: 092a0094896d2ea10bee20b8e1f3f7b51e1e989408072b9624413df79dd69343fdaa406ad799faa5f560697129ce4a7c333fee272290ee64578c1c2ad12480cd
   languageName: node
   linkType: hard
 
@@ -2074,8 +2074,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "metadata-oracle@workspace:."
   dependencies:
-    "@big-whale-labs/bwl-metadata-bridge-contract": ^0.1.0
-    "@big-whale-labs/constants": ^0.1.39
+    "@big-whale-labs/bwl-metadata-bridge-contract": ^0.1.1
+    "@big-whale-labs/constants": ^0.1.46
     "@types/node": ^18.11.18
     "@typescript-eslint/eslint-plugin": ^5.48.0
     "@typescript-eslint/parser": ^5.48.0
