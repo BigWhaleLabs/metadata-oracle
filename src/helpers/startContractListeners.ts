@@ -18,9 +18,9 @@ export default function () {
       console.log(name, symbol)
 
       const tx = await metadataContract.storeMetadata(chainId, tokenAddress, {
-        tokenAddress,
         name,
         symbol,
+        tokenAddress,
       })
 
       const reciept = await tx.wait()

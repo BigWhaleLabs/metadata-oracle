@@ -17,12 +17,12 @@ const optimismTestnetProvider = new providers.JsonRpcProvider(
 )
 
 export default {
-  mainnetProvider,
-  goerliProvider,
-  polygonProvider,
-  polygonTestnetProvider,
   arbitrumProvider,
   arbitrumTestnetProvider,
-  optimismTestnetProvider,
+  goerliProvider,
+  mainnetProvider,
   optimismProvider,
+  optimismTestnetProvider,
+  polygonProvider,
+  polygonTestnetProvider,
 }
